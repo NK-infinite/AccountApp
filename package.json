@@ -10,8 +10,29 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/datetimepicker": "^8.4.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^7.3.13",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/stack": "^7.3.2",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-date-picker": "^5.0.13",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-gifted-charts": "^1.4.61",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-mmkv": "^2.9.0",
+    "react-native-modal-datetime-picker": "^18.0.0",
+    "react-native-pie-chart": "^4.0.1",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-svg": "^15.12.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
