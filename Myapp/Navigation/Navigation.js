@@ -10,6 +10,7 @@ import Settings from '../screens/Settings';
 import EditTransactionScreen from '../screens/EditTransactionScreen';
 import AnalyticsScreen from '../screens/AnalyticsScreen';
 import { Image } from 'react-native';
+import AnalyticsDetailScreen from '../screens/AnalyticsDetailScreen'
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -129,6 +130,17 @@ const Navigation = () => {
               backgroundColor: '#007bff',
             }
           }} />
+          <Stack.Screen
+          name='AnalyticsDetailScreen'
+         component={AnalyticsDetailScreen}
+          options={{
+          headerStyle: {
+            backgroundColor: '#007bff',
+          },
+          headerTintColor: '#fff',
+          headerTitleAlign: 'center',
+        }} 
+         />
       </Stack.Navigator>
     </NavigationContainer>
   );
