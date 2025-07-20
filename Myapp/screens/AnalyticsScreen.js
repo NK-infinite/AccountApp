@@ -105,7 +105,7 @@ const navigation = useNavigation();
         <View style={{flexDirection:'row',}}>
         <Text style={styles.sectionTitleDark}>{l}</Text>
        <TouchableOpacity 
-        onPress={()=>  navigation.navigate('AnalyticsDetailScreen', {type:'Lowest'})}>
+        onPress={()=>  navigation.navigate('AnalyticsDetailScreen', {type:'Lowest' })}>
 
         <Text style={styles.showtext}>Show</Text>
         </TouchableOpacity>
